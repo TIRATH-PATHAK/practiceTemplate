@@ -1,0 +1,153 @@
+.head .titleBar .title ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2%;
+    position: relative;
+    left: 5%;
+    top: 29px;
+}
+
+.head .titleBar .rightNav{
+    position: relative;
+    left: 70%;
+    top: -30px;
+}
+
+.head .titleBar .rightNav .drop ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1.2%;
+}
+
+.main1 .name h3{
+    position: relative;
+    left: 11%;
+    font-size: 25px;
+    top: -890px;
+    color: white;
+}
+
+.main1 .name .search p{
+    position: relative;
+    left: 63%;
+    top: -940px;
+    color: white;
+    border: 1px solid white;
+    width: 25%;
+    padding: 0.2%;
+}
+
+.main1 .image img{
+    background-size: cover;
+    width: 100%;
+}
+.main1 .intro{
+    position: relative;
+    top: -640px;
+    left: 10%;
+}
+
+.main1 .intro .btn{
+    position: relative;
+    top: 45px;
+    
+}
+
+.main1 .intro .btn button{
+    padding: 1%;
+    color: white;
+    background-color: darkblue;
+}
+
+.main2 .funct ul li{
+    list-style-type: none;
+    width: 22.6%;
+    padding: 1%;
+    position: relative;
+    top: -165px;
+    display: inline-block;
+}
+
+.main2 .funct .title h3{
+    color: darkblue;
+}
+
+.main2 .funct .title .subTitle{
+    width: 60%;
+    padding: 1%;
+    text-align: justify;
+}
+
+.main2 .funct .images .img2{
+    float: right;
+    position: relative;
+    top: -670px;
+}
+
+.main2 .funct .images .img2 .imgTop .drinks_electronics span.span{
+    margin-left: 6%;
+}
+
+.main2 .funct .images .assessories{
+    margin-left: 5%;
+}
+
+.main2 .funct .images .assessories img{
+    height: 610px;
+    position: relative;
+    top: -55px;
+    width: 42%;
+    left: 4%;
+}
+
+.main2 .funct .images .img2{
+    position: relative;
+    right: 90px;
+}
+
+.trending .title h2{
+    position: relative;
+    left: 32%;
+}
+
+.trending .title .sec1{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top: -500px;
+    left: 9%;
+}
+
+.trending .title .sec1 img,h5{
+    padding: 1%;
+
+}
+
+.trending .title .sec2{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top: -500px;
+    left: 9%;
+}
+
+.trending .title .sec2 img{
+    padding: 1%;
+
+}
+ 
+
+.hr1{
+    width: 30%;
+    position: relative;
+    left: -15%;
+    top: 35px;
+    
+}
+
+.hr2{
+    width: 35%;
+    position: relative;
+    left: 52%;
+    top: -33px;
+}
