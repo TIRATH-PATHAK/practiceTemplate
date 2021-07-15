@@ -1,3 +1,6 @@
+body{
+    overflow-: hidden;
+}
 .head .titleBar .title ul li{
     list-style-type: none;
     display: inline-block;
@@ -27,11 +30,12 @@
     color: white;
 }
 
-.main1 .name .search p{
+.main1 .name .search input{
     position: relative;
-    left: 3%;
+    left: 70%;
+
     top: -940px;
-    color: white;
+    opacity: 0.8;
     border: 1px solid white;
     width: 25%;
     padding: 0.2%;
@@ -245,22 +249,40 @@
 
 .contact{
     width: 100%;
+    margin-left: -2%;
 }
 
 .contact .contact .conc{
-    width: 23%;
+    width: 22%;
     float: left;
     margin-top: 5%;
     
 }
 
+.contact .contact .conc1{
+    width: 33%;
+    float: left;
+    margin-top: 5%;
+}
+
+
+.contact .contact .conc1 h4{
+    margin-left: 33%;
+}
+
+.contact .contact .conc1 p{
+    width: 70%;
+    position: relative;
+    left: 11%;
+}
+
 .contact .contact .conc h4{
-    margin-left: 40%;
+    margin-left: 32%;
 
 }
 
 .contact .contact .conc p{
-    width: 50%;
+    width: 60%;
     
 
 }
