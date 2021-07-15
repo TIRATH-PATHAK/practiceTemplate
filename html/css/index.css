@@ -29,7 +29,7 @@
 
 .main1 .name .search p{
     position: relative;
-    left: 63%;
+    left: 3%;
     top: -940px;
     color: white;
     border: 1px solid white;
@@ -70,12 +70,13 @@
 
 .main2 .funct .title h3{
     color: darkblue;
+    margin-left: 2%;
 }
 
-.main2 .funct .title .subTitle{
-    width: 60%;
-    padding: 1%;
+.main2 .funct .title .subTitle p{
+    width: 90%;
     text-align: justify;
+    margin-left: -50px;
 }
 
 .main2 .funct .images .img2{
@@ -110,32 +111,174 @@
     left: 32%;
 }
 
-.trending .title .sec1{
-    display: inline-block;
+.trending .title .sec1 .imgs1{
+ 
+    width: 22%;
+    float: left;
+    margin-top: -25%;
+    margin-left: 3%;
+    
+    
+}
+
+.trending .title .sec1 .imgs1 p{
+    float: left;
+}
+
+.trending .title .sec2 .imgs{
+ 
+    width: 22%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2.4%;
+     
+}
+
+.trending .title .sec2 .imgs p{
+    float: left;
+}
+
+
+#img1{
+    width: 35%;
+    float: right;
+    color: red;
+}
+
+#img2{
+    width: 35%;
+    float: right;
+    color: red;
+    
+}
+
+.clearfix {
+    display: block;
+}
+
+.clearfix:before,.clearfix:after {
+    content: '';
     width: 100%;
-    position: relative;
-    top: -500px;
-    left: 9%;
+    display: table;
 }
 
-.trending .title .sec1 img,h5{
-    padding: 1%;
 
-}
 
-.trending .title .sec2{
-    display: inline-block;
-    width: 100%;
-    position: relative;
-    top: -500px;
-    left: 9%;
-}
-
-.trending .title .sec2 img{
-    padding: 1%;
-
+.blog .title h2{
+    margin-top: 9%;
+    text-align: center;
 }
  
+.blog .title .blog1 .top .BlogTop{
+    width: 45%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.blog .title .blog1 .top .BlogTop h3,p{
+    float: right;
+    width: 40%;
+    margin-right: 8%;
+    text-align: justify;
+
+}
+
+.blog .title .blog1 .top .BlogTop p{
+    margin-top: -18%;
+  
+}
+
+.blog .title .blog1 .bottom .BlogBottom{
+    width: 45%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.blog .title .blog1 .bottom .BlogBottom h3,p{
+    float: right;
+    width: 40%;
+    margin-right: 8%;
+    text-align: justify;
+
+}
+
+.blog .title .blog1 .bottom .BlogBottom p{
+    margin-top: -18%;
+  
+}
+
+.newsletter{
+  
+    text-align: center;
+    font-size: 25px;
+    background-color: lightblue;
+    
+}
+
+.newsletter .heading{
+    margin-top: 35%;
+    padding: 3%;
+}
+
+.newsletter .heading .subHeading .email .form{
+    display: inline-block;
+    width: 30%;
+    
+
+}
+
+
+.newsletter .heading .subHeading .email .form input{
+    padding: 2%;
+    width: 62%;
+    
+}
+
+.newsletter .heading .subHeading .email .form button{
+    padding: 5%;
+    background-color: darkblue;
+    color: white;
+}
+
+
+.contact{
+    width: 100%;
+}
+
+.contact .contact .conc{
+    width: 23%;
+    float: left;
+    margin-top: 5%;
+    
+}
+
+.contact .contact .conc h4{
+    margin-left: 40%;
+
+}
+
+.contact .contact .conc p{
+    width: 50%;
+    
+
+}
+
+.blogup{
+    width: 33%;
+    position: relative;
+    left: -32%;
+    top: 135px;
+}
+
+.blogdown{
+    width: 35%;
+    position: relative;
+    left: 33%;
+    top: -33px;
+}
+
 
 .hr1{
     width: 30%;
@@ -150,4 +293,9 @@
     position: relative;
     left: 52%;
     top: -33px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 20px;
 }
